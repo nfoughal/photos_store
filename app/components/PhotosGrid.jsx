@@ -42,9 +42,9 @@ async function getPhotoUrls(photos, user, supabaseServer){
     return photoUrls;
 }
 
-async function fetchFavotitePhotos() {
+// async function fetchFavotitePhotos() {
 
-}
+// }
 
 export default async function  PhotosGrid() {
     const cookieStore = cookies();

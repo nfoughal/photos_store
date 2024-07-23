@@ -1,4 +1,3 @@
-import { POST } from "@/app/auth/signout/route";
 import { createServerClient } from "@supabase/ssr";
 import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
